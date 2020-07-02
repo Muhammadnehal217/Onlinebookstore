@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-link{
+    color: rgb(45, 57, 129);
+    font-size: 17px;
+    margin-right: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-link:hover{
+    color: rgb(87, 103, 207);
+
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.container-fluid{
+    margin-top: 15px;
+}
+.heading{
+    margin-top: 50px;
+    color: rgb(45, 57, 129);
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div-3{
+    background-color:rgb(32, 46, 129);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.div-4{
+    background-color: white;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 60px;
+    border: 14px solid rgb(32, 46, 129);
+}
+.div-5{
+    background-color: white;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 60px;
+    border: 5px solid rgb(32, 46, 129);
+}
+
+.footer{
+    background-color:rgb(32, 46, 129);
+    padding: 90px;
+    padding-bottom: 10px;
+}
+.row{
+    line-height: 2.5;
+    text-align: left;
+
+}
+.col-sm-3{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center ;
+}
+.col-sm-4{
+    color:rgb(32, 46, 129) ;
+    font-size: 17px;
+}
+.btn{
+    border-radius: 0;
+    border: 3px solid rgb(32, 46, 129);
+
+}
+.btn-outline-primary {
+    color: rgb(32, 46, 129);
+    border-color: rgb(32, 46, 129);
+
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus:focus, .btn-outline-primary:active:active {
+    color: #fff;
+    background-color:rgb(32, 46, 129);
+    border-color:rgb(32, 46, 129);
+}
+.btn-outline-light {
+    border: 2px solid white;
+    padding: 5px 40px 5px 40px;
+}
+.btn-outline-light:hover{
+    color: rgb(32, 46, 129);
+}
+.btn-primary{
+    padding: 5px 40px 5px 40px;
+    color: rgb(32, 46, 129);
+    background-color: white;
+    border-color: rgb(32, 46, 129);
+}
+.btn-primary:hover{ 
+    color: white;
+    background-color:rgb(32, 46, 129) ;
+}
+
+#B1 {
+        
+        position: fixed;
+        bottom: 20px;
+        right: 14px;
+        z-index: 99;
+        border: none;
+        font-size: 20px;
+}
+#B1:hover{
+    color: #fff;
+    background-color:rgb(32, 46, 129);
+    border-color:rgb(32, 46, 129);
+
+}
+#input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(32, 46, 129);
+    }
+.close{
+    font-size: 40px;
+}
+.close:focus{
+    outline: none;
+}
+.products{
+    text-align: center;
+    line-height: normal;
+    margin-top: 10px;
+    color:rgb(32, 46, 129);
+}
+.products-2{
+    text-align: center;
+    line-height: normal;
+    margin-top: 10px;
+    color: white;
+}
+.card-container {
+    position: relative;
+  }
+.img-fluid{
+    height: auto;
+}
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0;
+    background:  rgb(255,255,255);
+    background: rgb(255,255,255,0.5); 
+    color: #f1f1f1; 
+    transition: .5s ease;
+    opacity:0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+ 
+  
+  .card-container:hover .overlay {
+    opacity: 1;
+  }
+  .link-1{
+    background-color: rgb(32, 46, 129);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 70px;
+  }
+  .link-1:hover, .link-1:active {
+    background-color: rgb(44, 66, 194);
+    text-decoration: none;
+    color: white;
+  }
+  .buy{
+      padding: 5px 30px 5px 30px;
+      border: none;
+
+  }
+

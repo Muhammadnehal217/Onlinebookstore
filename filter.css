@@ -1,0 +1,19 @@
+.filterDiv {
+    float: left;
+    display: none;
+    margin: 50px;
+    padding: 2px;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+    overflow: hidden;
+  }
+  .but{
+      border: none;
+  }
+
+
